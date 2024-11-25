@@ -1,0 +1,26 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginHorizontal="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_launcher_foreground"
+            android:scaleType="centerCrop" />
+
+
+<!--        <FrameLayout-->
+<!--            android:id="@+id/selectedLayoutContainer"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_marginTop="8dp" />-->
+
+    <!-- Add more rows or columns for additional images -->
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#333333"
+    android:padding="@dimen/_5sdp"> <!-- Background color for the divider -->
+
+    <!-- First ImageView -->
+    <ImageView
+        android:id="@+id/imageView1"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#000000" /> <!-- Set black background -->
+
+    <!-- Second ImageView -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:background="#000000" /> <!-- Set black background -->
+
+</LinearLayout>
